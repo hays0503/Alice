@@ -26,7 +26,7 @@ $answer = array(
   "version" => $data->version,
 );
 
-if (($data->request->command == '1.') || ($data->request->command == 'Раз.') || ($data->request->command == 'раз.') || ($data->request->command == 'один.') || ($data->request->command == 'Один.'))
+if (($data->request->command == '1.') || ($data->request->command == 'Раз') || ($data->request->command == 'раз') || ($data->request->command == 'айнц') || ($data->request->command == 'Айнц'))
 {
     $answer['response']['text'] = 'Здравствуйте! Вот хороший сайт об этом:';
     $answer['response']['tts'] = 'Здравствуйте! Вот хор+оший сайт об этом:';
