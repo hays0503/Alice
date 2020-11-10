@@ -26,7 +26,7 @@ $answer = array(
   "version" => $data->version,
 );
 
-if (($data->request->original_utterance == 'Алиса, запусти работа в интернете') || ($data->request->original_utterance == 'Алиса, запусти заработок в интернете') || ($data->request->original_utterance == 'Работа в интернете'))
+if (($data->request->original_utterance == 'Алиса, запусти работа в интернете.') || ($data->request->original_utterance == 'Алиса, запусти заработок в интернете.') || ($data->request->original_utterance == 'Работа в интернете.'))
 {
     $answer['response']['text'] = 'Здравствуйте! Вот хороший сайт об этом:';
     $answer['response']['tts'] = 'Здравствуйте! Вот хор+оший сайт об этом:';
