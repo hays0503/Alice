@@ -44,7 +44,7 @@ else
     $answer['response']['text'] = 'Я ещё только учусь!';
 }*/
 
-if (($data->request->command == 'где я живу?'))
+if (($data->request->command == 'где я живу'))
 {
     $answer['response']['text'] = 'Ты живёшь в Петропавловске Казахстане:';
     $answer['response']['tts'] = 'Ты живёшь в Петропавловске Казахстане:';
